@@ -1,0 +1,62 @@
+
+*{
+	background-color: gray;
+}
+.border{
+	background-color: black;
+	height: 700px;
+	width: 500px;
+	border: 2px solid white;
+	color: green;
+	margin: auto;
+}
+.header_name{
+	font-size: 2em;
+	color: white;
+	margin-left: 30px;
+	background-color: black;
+	
+}
+.input_field{
+	height: 100px;
+	width: 440px;
+	margin: 25px 0px 0px 25px;
+	background-color: green;
+	font-size: 30px;
+	border: 3px solid gray;
+}
+.buttons{
+	margin: 25px;
+	margin-top: 50px;
+	padding: 10px;
+	background-color: black;
+/*	border: 3px solid gray;*/
+}
+.row{
+	margin-bottom: 35px;
+	padding: 1px;
+	background-color: black;
+}
+.button_colored{
+	background-color: pink;
+	color: blue;
+	padding: 8px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-left: 14px;
+	font-size: 50px;
+	border: 1px solid red;
+	text-decoration: none;
+}
+
+.button_colored_small{
+	background-color: pink;
+	color: blue;
+	padding: 8px;
+	padding-left: 35px;
+	padding-right: 35px;
+	margin-left: 14px;
+	font-size: 50px;
+	border: 1px solid red;
+	text-decoration: none;
+}
