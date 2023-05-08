@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
-        
-	<link rel="stylesheet" type="text/css" href="cal_style.css">
 
-</head>
-<body>
 	<h2> Simple Calculator</h2>
 	<!-- <div class="container">
 		<input type="button" class="button btn0" value="0">
@@ -67,9 +57,6 @@
 			
 		</div>
 	</form> 
-</body>
-</html>
-
 
 
 
