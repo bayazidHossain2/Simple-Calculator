@@ -20,10 +20,20 @@
 		<input type="button" class="button btn6" value="6">
 		<input type="button" class="button btn7" value="7">
 	</div> -->
-	<form class="form">
+	
+	<form class="form" action="{{url('/add_history')}}" method="POST">
+		@csrf
+
+
 	<div class="calculator">
 			<div class="row row-1">
 				<h4>Calculator</h4>
+				<select onchange="inp.value=drop.value" class="dropdown" name="drop">
+					<option selected="" value="">History</option>
+					@foreach($all_history as $history)
+						<option value="{{$history->expression}}">{{$history->expression}}</option>
+					@endforeach
+				</select>
 			</div>
 			 
 			<div class="row row-2">
@@ -60,12 +70,17 @@
 					<input type="button" name="" class="btn btn-0" value="0" onclick="inp.value +='0'">
 					<input type="button" name="" class="btn btn-1" value="." onclick="inp.value +='.'">
 					<input type="button" name="" class="btn btn-p" value="Ans" onclick="inp.value +=out.value">
-					<input type="button" name="" class="btn btn-g" value="SV">
+					<input type="submit" name="" class="btn btn-g" value="SV">
 					<input type="button" name="" class="btn btn-b" value="=" onclick="out.value =eval(inp.value)">
 				</div>
 			</div>
 			
 		</div>
+		<!-- <script type="text/javascript">
+			document.getElementsByTagName("select")[0].addEventListener("change",(e)=>{
+				console.log(e.target.value);
+			});
+		</script> -->
 	</form> 
 </body>
 </html>

@@ -96,12 +96,24 @@
 
 .row-1{
 	height: 60px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 h4{
 	color: gray;
 	font-size: 20px;
 	padding: 2px;
 	margin-left: 20px;
+	width: 150px;
+}
+.dropdown{
+	width: 200px;
+	font-size: 20px;
+	background-color: black;
+	color: grey;
+	align-self: flex-end;
+	margin-bottom: 2px;
 }
 
 .inp{

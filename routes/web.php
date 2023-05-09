@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\AdminController;
+use App\Models\history;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,11 +15,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $string_value="123";
-    return view('Home.flex_cal');
+    $all_history=history::all();
+    return view('Home.flex_cal',compact('all_history'));
 });
 
 Route::get('/evaluate/{string_value}', function ($string_value) {
     $value= $string_value . "9";
     return redirect()->back()->with('result','value');
 });
+
+Route::post('/add_history',[AdminController::class,'add_history']);
