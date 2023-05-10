@@ -15,8 +15,8 @@ use App\Models\history;
 */
 
 Route::get('/', function () {
-    $all_history=history::all();
-    return view('Home.flex_cal',compact('all_history'));
+    // $all_history=history::all();
+    return view('Home.calculator_grid');
 });
 
 Route::get('/evaluate/{string_value}', function ($string_value) {
