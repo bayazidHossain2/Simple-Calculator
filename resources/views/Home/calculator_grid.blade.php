@@ -17,8 +17,8 @@
 			<div class="power"></div>
 		</div>
 		<div class="display">
-			<input type="text" name="in">
-			<input type="text" name="out">
+			<input type="text" name="in" id="in">
+			<input type="text" name="out" id="out">
 		</div>
 		<div class="additional_button">
 			<div class="btnset set-1">

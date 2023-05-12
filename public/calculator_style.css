@@ -6,6 +6,7 @@
 	background-color: black;
 	display: flex;
 	flex-direction: column;
+	border-radius: 10px;
 }
 .head{
 /*	border: 1px solid red;*/
@@ -30,10 +31,11 @@
 	justify-self: center;
 	width: 55%;
 /*	border: 1px solid blue;*/
-	height: 60%;
-	background-color: rgb(50, 50, 10);
+	height: 55%;
+	background-color: rgb(80, 60, 30);
 	margin: 20px 10px;
 	margin-right: 30px;
+	border-radius: 8px;
 }
 .display{
 /*	border: 2px solid red;*/
@@ -47,12 +49,18 @@
 	height: 100%;
 	border: 0px;
 }
+#in{
+	border-radius: 10px 10px 0px 0px;
+}
+#out{
+	border-radius: 0px 0px 10px 10px;
+}
 
 .additional_button{
 /*	border: 1px solid red;*/
 	height: 225px;
 	margin: 0px 15px;
-	margin-top: 10px;
+	margin-top: 20px;
 	display: grid;
 	grid-template-rows: repeat(2, 1fr);
 	grid-template-columns: repeat(3, 1fr);
@@ -87,19 +95,23 @@
 }
 .set-2 .a-1{
 /*	border: 2px solid red;*/
-	grid-area: 1/6/5/9;
+	grid-area: 2/6/6/9;
+	border-radius: 10px 10px 40px 40px;
 }
 .set-2 .a-2{
 /*	border: 2px solid red;*/
 	grid-area: 5/2/8/6;
+	border-radius: 10px 40px 40px 10px ;
 }
 .set-2 .a-3{
 /*	border: 2px solid red;*/
 	grid-area: 5/9/8/13;
+	border-radius: 40px 10px 10px 40px ;
 }
 .set-2 .a-4{
 /*	border: 2px solid red;*/
-	grid-area: 8/6/12/9;
+	grid-area: 7/6/11/9;
+	border-radius: 40px 40px 10px 10px ;
 }
 .btnset button{
 	color: rgb(100, 100, 200);
