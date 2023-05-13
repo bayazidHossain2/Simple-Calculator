@@ -28,7 +28,7 @@
 	<div class="calculator">
 			<div class="row row-1">
 				<h4>Calculator</h4>
-				<select onchange="inp.value=drop.value" class="dropdown" name="drop">
+				<select onchange="inp.value+=drop.value" class="dropdown" name="drop">
 					<option selected="" value="">History</option>
 					@foreach($all_history as $history)
 						<option value="{{$history->expression}}">{{$history->expression}}</option>

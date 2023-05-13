@@ -8,6 +8,7 @@
 </head>
 <body>
 	<div class="container"> 
+		<form>
 		<div class="head">
 			<div class="head_text">
 				<h2>CASIO</h2>
@@ -17,7 +18,7 @@
 			<div class="power"></div>
 		</div>
 		<div class="display">
-			<input type="text" name="in" id="in">
+			<input type="text" name="inp" id="in">
 			<input type="text" name="out" id="out">
 		</div>
 		<div class="additional_button">
@@ -65,27 +66,30 @@
 			</div>
 		</div>
 		<div class="basic_button">
-			<button>7</button>
-			<button>8</button>
-			<button>9</button>
-			<button class="colored_btn">DEL</button>
-			<button class="colored_btn">AC</button>
-			<button>4</button>
-			<button>5</button>
-			<button>6</button>
-			<button>x</button>
-			<button>/</button>
-			<button>1</button>
-			<button>2</button>
-			<button>3</button>
-			<button>+</button>
-			<button>-</button>
-			<button>0</button>
-			<button>.</button>
-			<button>x10<sup>x</sup></button>
-			<button>Ans</button>
-			<button>=</button>
-		</div>
+			<input type="button" onclick="inp.value += value" value="7"></input>
+			<input type="button" onclick="inp.value += value" value="8"></input>
+			<input type="button" onclick="inp.value += value" value="9"></input>
+			<input type="button" onclick="inp.value += value" value="DEL" class="colored_btn"></input>
+			<input type="button" onclick="inp.value += value" value="AC" class="colored_btn"></input>
+			<input type="button" onclick="inp.value += value" value="4"></input>
+			<input type="button" onclick="inp.value += value" value="5"></input>
+			<input type="button" onclick="inp.value += value" value="6"></input>
+			<input type="button" onclick="inp.value += value" value="x"></input>
+			<input type="button" onclick="inp.value += value" value="/"></input>
+			<input type="button" onclick="inp.value += value" value="1"></input>
+			<input type="button" onclick="inp.value += value" value="2"></input>
+			<input type="button" onclick="inp.value += value" value="3"></input>
+			<input type="button" onclick="inp.value += value" value="+"></input>
+			<input type="button" onclick="inp.value += value" value="-"></input>
+			<input type="button" onclick="inp.value += value" value="0"></input>
+			<input type="button" onclick="inp.value += value" value="."></input>
+			<input type="button" onclick="inp.value += value" value="10^x"></input>
+			<input type="button" onclick="inp.value += value" value="Ans"></input>
+			<input type="button" onclick="out.value = eval(inp.value)" value="="></input>
+	</form>
 	</div>
+	<script type="text/javascript">
+		
+	</script>
 </body>
 </html>

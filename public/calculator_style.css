@@ -142,7 +142,7 @@
 	grid-template-columns: repeat(5, 1fr);
 	grid-gap: 1em;
 }
-.basic_button button{
+.basic_button input{
 	background-color: grey;
 	color: white;
 	font-size: 20px;
