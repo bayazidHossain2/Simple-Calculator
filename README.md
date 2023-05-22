@@ -1,3 +1,31 @@
+# Simple Calculator
+
+## Technology for build this project:
+
+For FrontEnd:
+- **HTML**
+- **CSS**
+- **CSS FLEXBOX**
+- **CSS GRID**
+- **JAVASCRIPT**
+
+For BackEnd:
+
+- **PHP**
+- **LARAVEL**
+
+## Screenshots
+
+<img src="screenshorts/s1.phg">   <img src="screenshorts/s2.phg">   <img src="screenshorts/s3.phg">
+    
+<br>
+<img src="screenshorts/a1.phg">   <img src="screenshorts/a2.phg">   
+<img src="screenshorts/a3.phg">   <img src="screenshorts/a4.phg">   
+
+
+<br>
+<br>
+
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
