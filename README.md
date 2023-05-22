@@ -16,11 +16,11 @@ For BackEnd:
 
 ## Screenshots
 
-<img src="screenshorts/s1.phg">   <img src="screenshorts/s2.phg">   <img src="screenshorts/s3.phg">
+<img src="screenshorts/s1.png">   <img src="screenshorts/s2.png">   <img src="screenshorts/s3.png">
     
 <br>
-<img src="screenshorts/a1.phg">   <img src="screenshorts/a2.phg">   
-<img src="screenshorts/a3.phg">   <img src="screenshorts/a4.phg">   
+<img src="screenshorts/a1.png">   <img src="screenshorts/a2.png">   
+<img src="screenshorts/a3.png">   <img src="screenshorts/a4.png">   
 
 
 <br>
