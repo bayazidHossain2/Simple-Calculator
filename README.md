@@ -16,7 +16,7 @@ For BackEnd:
 
 ## Screenshots
 
-<img src="screenshorts/s1.png">   <img src="screenshorts/s2.png">   <img src="screenshorts/s3.png">
+<img src="screenshorts/s1.png" height="200">   <img src="screenshorts/s2.png" height="200">   <img src="screenshorts/s3.png height="200"">
     
 <br>
 <img src="screenshorts/a1.png">   <img src="screenshorts/a2.png">   
