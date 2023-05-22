@@ -121,10 +121,12 @@ h4{
 	padding: 4px;
 	border: 0px;
 	font-size: 25px;
+	outline: none;
 }
 
 .out{
 	text-align: right;
+	outline: none;
 }
 .row-2{
 	flex-grow: 3;

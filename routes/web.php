@@ -16,7 +16,8 @@ use App\Models\history;
 
 Route::get('/', function () {
      $all_history=history::all();
-    return view('Home.flex_cal',compact('all_history'));
+    //return view('Home.flex_cal',compact('all_history'));
+    return view('Home.calculator_grid',compact('all_history'));
 });
 
 Route::get('/evaluate/{string_value}', function ($string_value) {
@@ -25,3 +26,8 @@ Route::get('/evaluate/{string_value}', function ($string_value) {
 });
 
 Route::post('/add_history',[AdminController::class,'add_history']);
+
+Route::get('/simple_calculator', function () {
+    $all_history=history::all();
+    return view('Home.flex_cal',compact('all_history'));
+});

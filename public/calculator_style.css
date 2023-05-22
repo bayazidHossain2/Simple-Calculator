@@ -44,15 +44,26 @@
 	flex-direction: column;
 	margin: 5px 15px;
 }
+.display .display-top{
+/*	border:2px solid red;*/
+	background-color: rgb(100, 200, 200);
+	font-size: 11px;
+	padding-bottom: 5px;
+	border-radius: 10px 10px 0px 0px;
+}
 .display input{
 	background-color: rgb(100, 200, 200);
 	height: 100%;
 	border: 0px;
+	padding: 5px;
+	font-size: 25px;
+	outline: none;
 }
 #in{
-	border-radius: 10px 10px 0px 0px;
+
 }
 #out{
+	text-align: right;
 	border-radius: 0px 0px 10px 10px;
 }
 
@@ -93,22 +104,22 @@
 	grid-template-rows: repeat(12, 1fr);
 	grid-template-columns: repeat(13, 1fr);
 }
-.set-2 .a-1{
+.set-2 .a-u{
 /*	border: 2px solid red;*/
 	grid-area: 2/6/6/9;
 	border-radius: 10px 10px 40px 40px;
 }
-.set-2 .a-2{
+.set-2 .a-l{
 /*	border: 2px solid red;*/
 	grid-area: 5/2/8/6;
 	border-radius: 10px 40px 40px 10px ;
 }
-.set-2 .a-3{
+.set-2 .a-r{
 /*	border: 2px solid red;*/
 	grid-area: 5/9/8/13;
 	border-radius: 40px 10px 10px 40px ;
 }
-.set-2 .a-4{
+.set-2 .a-d{
 /*	border: 2px solid red;*/
 	grid-area: 7/6/11/9;
 	border-radius: 40px 40px 10px 10px ;

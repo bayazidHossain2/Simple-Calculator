@@ -82,5 +82,8 @@
 			});
 		</script> -->
 	</form> 
+	<div>
+		<a href="{{url('/')}}"><h1>Goto Advanch Calculator</h1></a>
+	</div>
 </body>
 </html>
