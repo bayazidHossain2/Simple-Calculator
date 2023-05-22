@@ -12,15 +12,15 @@ For FrontEnd:
 For BackEnd:
 
 - **PHP**
+- **MYSQL**
 - **LARAVEL**
 
 ## Screenshots
 
-<img src="screenshorts/s1.png" height="200">   <img src="screenshorts/s2.png" height="200">   <img src="screenshorts/s3.png height="200"">
-    
-<br>
-<img src="screenshorts/a1.png">   <img src="screenshorts/a2.png">   
-<img src="screenshorts/a3.png">   <img src="screenshorts/a4.png">   
+<img src="screenshorts/s1.png" height="400">   <img src="screenshorts/s2.png" height="400">   <img src="screenshorts/s3.png" height="400"><br><br><br><br><br><br>
+<img src="screenshorts/a1.png" height="600">   <img src="screenshorts/a2.png" height="600">   
+
+<img src="screenshorts/a3.png" height="600">      <img src="screenshorts/a4.png" height="600">   
 
 
 <br>
